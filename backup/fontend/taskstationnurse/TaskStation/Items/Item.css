@@ -1,0 +1,149 @@
+.cancelButton {
+  height: 85px;
+  width: 250px;
+
+  background: url('../Images/delete_cancel_btn.png');
+  background-size: cover;
+  border: none;
+
+  margin-left: 50px;
+
+  cursor: pointer;
+}
+
+.confirmButton {
+  height: 85px;
+  width: 250px;
+
+  background: url('../Images/delete_confirm_btn.png');
+  background-size: cover;
+  border: none;
+
+  cursor: pointer;
+}
+
+.detailButton {
+  height: 90px;
+  width: 250px;
+  font-size: 0.75em;
+  margin-top: 10px;
+
+  background: url('../Images/detailButton.png') no-repeat;
+  background-size: contain;
+  border: none;
+  cursor: pointer;
+}
+
+.residentRowItem {
+  flex: 1;
+  height: 73px;
+  background-color: #fffaf2;
+
+  font-family: adobestdb;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #6D6B6A;
+  text-align: center;
+  line-height: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 1px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-bottom: 1px;
+}
+
+.residentRow{
+  width: '100%';
+  height: 75px;
+  background-color: #C5C4C3;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.ModalMessage{
+
+  min-height: 150px;
+  min-width: 600px;
+  max-height: 150px;
+  max-width: 600px;
+  margin-top: 70px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  font-family: adobestdb;
+  font-size: 3.5em;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  font-stretch: condensed;
+  line-height: 1.25;
+
+}
+
+.ConfirmButtonsArea{
+
+  min-height: 150px;
+  min-width: 625px;
+
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: center;
+
+}
+
+.dialogBox {
+  min-height: 400px;
+  min-width: 675px;
+  max-height: 400px;
+  max-width: 675px;
+  background: url('../Images/bg.png');
+  background-size: contain;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 250px;
+}
+
+.RowImage {
+  max-height: 200px;
+  min-height: 200px;
+  max-width: 300px;
+  min-width: 300px;
+  object-fit: contain;
+}
+
+.ImageName {
+  flex-grow: 1;
+  height: 200px;
+
+  font-family: adobestdb;
+  font-size: 2em;
+  color: #3d3d3d;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  padding-left: 35px;
+
+  word-break: break-all;
+}
+
+.Control {
+  height: 200px;
+  width: 400px;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "taskstation",
+  "version": "1.0.0",
+  "description": "Taskstation app for SEHS project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "*",
+    "cors": "^2.8.4",
+    "express": "*",
+    "mongoose": "*",
+    "react-addons-update": "^15.6.2"
+  },
+  "author": "Wong Yan Kit",
+  "license": "ISC"
+}

@@ -1,0 +1,143 @@
+
+.listTopBarItemFlex3 {
+  flex: 3;
+  height: 75px;
+
+  font-family: adobestdb;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #fffaf2;
+  text-align: center;
+
+}
+
+.listTopBarItem {
+  flex: 1;
+  height: 75px;
+
+  font-family: adobestdb;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #fffaf2;
+  text-align: center;
+
+}
+
+.listTopBar {
+  width: 100%;
+  height: 75px;
+  background-color: #989898;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.remarkArea {
+  width: 100%;
+  height: 75px;
+
+  display: flex;
+  align-items: flex-end;
+
+  font-family: adobestdb;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #989898;
+}
+
+.TitleArea {
+  width: 75%;
+  height: 90px;
+  justify-content: center;
+  align-items: center;
+
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.title {
+  font-family: adobestdb;
+  font-size: 3em;
+  font-weight: bold;
+  color: white;
+  margin-left: 15px;
+}
+
+.topRightButton {
+  min-width: 90px;
+  min-height: 90px;
+  background-image: url('../Images/back_btn.png');
+  background-size:contain;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  cursor: pointer;
+}
+
+.NoPasswordMessage{
+  width: 155px;
+  height: 25px;
+
+  background-image: url('../Images/please_enter_pw.png');
+  background-size:contain;
+}
+
+.LoginFailedMessage{
+  width: 155px;
+  height: 25px;
+
+  background-image: url('../Images/login_failed_message.png');
+  background-size:contain;
+}
+
+.Content {
+  width: 100%;
+  height: 1410px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.LoginInfo {
+  width: 250px;
+  height: 125px;
+  margin: auto;
+  margin-top: 225px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.password {
+  height: 28px;
+  width: 250px;
+  font-size: 1.25em;
+  margin-bottom: 5px;
+}
+
+.submitPassword {
+  height: 48px;
+  width: 265px;
+  font-size: 0.75em;
+  margin-top: 10px;
+
+  background: url('../Images/login_btn.png') no-repeat;
+  background-size: contain;
+  border: none;
+  cursor: pointer;
+}
+
+.ContentArea {
+  width: 100%;
+  height: 910px;
+  margin: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+
+
+  background-image: url('../Images/Content_bg.png');
+  background-size: contain;
+}
